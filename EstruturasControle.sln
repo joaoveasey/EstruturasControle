@@ -3,15 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1Estrutura_If", "1Estrutura_If\1Estrutura_If.csproj", "{CF194716-C0EE-455F-B8E8-8F0DB4AC8E72}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1Estrutura_If", "1Estrutura_If\1Estrutura_If.csproj", "{CF194716-C0EE-455F-B8E8-8F0DB4AC8E72}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2Estrutura_If_Else", "2Estrutura_If_Else\2Estrutura_If_Else.csproj", "{8712006C-0D05-47C9-AE63-0598488EFBB6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2Estrutura_If_Else", "2Estrutura_If_Else\2Estrutura_If_Else.csproj", "{8712006C-0D05-47C9-AE63-0598488EFBB6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3Estrutura_If_Else_If", "3Estrutura_If_Else_If\3Estrutura_If_Else_If.csproj", "{58BE936A-277F-48C6-85C3-01EDE6E039B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3Estrutura_If_Else_If", "3Estrutura_If_Else_If\3Estrutura_If_Else_If.csproj", "{58BE936A-277F-48C6-85C3-01EDE6E039B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4Estrutura_Switch_Case", "4Estrutura_Switch_Case\4Estrutura_Switch_Case.csproj", "{36AC6A74-DDB3-4F90-A735-F5572198A176}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4Estrutura_Switch_Case", "4Estrutura_Switch_Case\4Estrutura_Switch_Case.csproj", "{36AC6A74-DDB3-4F90-A735-F5572198A176}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4Estrutura_Switch_Case2", "4Estrutura_Switch_Case2\4Estrutura_Switch_Case2.csproj", "{57814EDB-33DD-43C6-ADE4-80607836DCA6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4Estrutura_Switch_Case2", "4Estrutura_Switch_Case2\4Estrutura_Switch_Case2.csproj", "{57814EDB-33DD-43C6-ADE4-80607836DCA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5Repeticao_Goto", "5Repeticao_Goto\5Repeticao_Goto.csproj", "{4C7E0191-B914-4B40-9C9C-DDC5B8396B5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6Repeticao_While", "6Repeticao_While\6Repeticao_While.csproj", "{F2D7E643-CEE8-4111-AA5B-DB10A7B892D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6Repeticao_While2", "6Repeticao_While2\6Repeticao_While2.csproj", "{537175A6-74AE-4A9E-BD06-C71A98B920BE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +45,18 @@ Global
 		{57814EDB-33DD-43C6-ADE4-80607836DCA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{57814EDB-33DD-43C6-ADE4-80607836DCA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{57814EDB-33DD-43C6-ADE4-80607836DCA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C7E0191-B914-4B40-9C9C-DDC5B8396B5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C7E0191-B914-4B40-9C9C-DDC5B8396B5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C7E0191-B914-4B40-9C9C-DDC5B8396B5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C7E0191-B914-4B40-9C9C-DDC5B8396B5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2D7E643-CEE8-4111-AA5B-DB10A7B892D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2D7E643-CEE8-4111-AA5B-DB10A7B892D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2D7E643-CEE8-4111-AA5B-DB10A7B892D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2D7E643-CEE8-4111-AA5B-DB10A7B892D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{537175A6-74AE-4A9E-BD06-C71A98B920BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{537175A6-74AE-4A9E-BD06-C71A98B920BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{537175A6-74AE-4A9E-BD06-C71A98B920BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{537175A6-74AE-4A9E-BD06-C71A98B920BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

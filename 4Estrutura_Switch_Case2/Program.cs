@@ -1,33 +1,33 @@
 ﻿Console.WriteLine("Estrutura Switch Case: Parte 2");
 
 //-----------executar o mesmo codigo para diferentes valores--------------
-//Console.WriteLine("Informe o nome do mês: ");
-//var mes = Console.ReadLine().ToLower(); // ToLower converte para minusculo
+Console.WriteLine("Informe o nome do mês: ");
+var mes = Console.ReadLine().ToLower(); // ToLower converte para minusculo
 
-//switch (mes)
-//{
-//    case "janeiro":
-//    case "março":
-//    case "maio":
-//    case "julho":
-//    case "agosto":
-//    case "outubro":
-//    case "dezembro":
-//        Console.WriteLine("este mês tem 31 dias");
-//        break;
-//    case "fevereiro":
-//        Console.WriteLine("este mês tem 28 ou 29 dias");
-//        break;
-//    case "abril":
-//    case "junho":
-//    case "setembro":
-//    case "novembro":
-//        Console.WriteLine("este mês tem 30 dias");
-//        break;
-//    default:
-//        Console.WriteLine("valor desconhecido");
-//        break;
-//}
+switch (mes)
+{
+    case "janeiro":
+    case "março":
+    case "maio":
+    case "julho":
+    case "agosto":
+    case "outubro":
+    case "dezembro":
+        Console.WriteLine("este mês tem 31 dias");
+        break;
+    case "fevereiro":
+        Console.WriteLine("este mês tem 28 ou 29 dias");
+        break;
+    case "abril":
+    case "junho":
+    case "setembro":
+    case "novembro":
+        Console.WriteLine("este mês tem 30 dias");
+        break;
+    default:
+        Console.WriteLine("valor desconhecido");
+        break;
+}
 
 //------------ instruções switch aninhadas --------------
 
