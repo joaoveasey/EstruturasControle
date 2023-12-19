@@ -77,3 +77,108 @@
 //{
 //    Console.WriteLine(x3);
 //}
+
+// 4) - Escreva um programa para exibir a tabela de multiplicação de um número natural maior que zero recebido via teclado 
+//while(true)
+//{
+//    Console.WriteLine("\nInsira um número natural maior que 0 (digite 0 para sair do loop): \n");
+//    int n4 = Convert.ToInt32(Console.ReadLine());
+//    if (n4 < 0)
+//    {
+//        Console.WriteLine("Seu número é menor que 0");
+//        break;
+//    }
+//    else
+//    {
+//        if (n4 == 0)
+//        {
+//            break;
+//        }
+//        for (int i4 = 1; i4 < 11; i4++)
+//        {
+//            Console.WriteLine($"{n4} x {i4} = {n4 * i4}");
+//        }
+//    }
+//}
+
+// 5) Escreva um programa para solicitar ao usuário que escolha a resposta correta de uma lista de opções de resposta de uma pergunta.
+// O usuário pode optar por continuar respondendo a pergunta ou parar de responder. Não utilize a instrução break.
+//char a5 = 's';
+
+//while (a5 != 'x')
+//{
+//    Console.WriteLine("\nQual a instrução para sair de um loop?\na. quit \nb.continue \nc. break \nd.exit \n\nQual a opção correta? (pressione x para sair)");
+//    a5 = Convert.ToChar(Console.ReadLine());
+
+//    if (a5 == 'a')
+//    {
+//        continue;
+//    }
+//    else if (a5 == 'b')
+//    {
+//        continue;
+//    }
+//    else if (a5 == 'c')
+//    {
+//        Console.WriteLine("------------Resposta correta!----------\n");
+//        continue;
+//    }
+//    else if (a5 == 'd')
+//    {
+//        continue;
+//    }
+//    else
+//    {
+//        if (a5 != 'x')
+//        {
+//            Console.WriteLine("Por favor insira um termo válido.\n");
+//            continue;
+//        }
+//    }
+//}
+
+// 6) Crie um programa para exbir no console os números pares de 10 a 20, ambos incluídos, exceto 16, de 3 maneiras diferentes:
+//incrementando 2 em cada passo:
+//for (int i6 = 10; i6 < 21; i6+=2)
+//{
+//    if (i6 != 16)
+//    {
+//        Console.WriteLine(i6);
+//    }
+//}
+//incrementando 1 em cada passo:
+//for (int x6 = 10; x6 < 21;  x6++)
+//{
+//    if(x6 % 2 == 0 && x6 != 16)
+//    {
+//        Console.WriteLine(x6);
+//    }
+//}
+//com loop infinito (usando "break" e "continue")
+//int a6 = 10;
+//while (true)
+//{
+//    if (a6 != 16)
+//    {
+//        Console.WriteLine(a6);
+//    }
+//    a6 += 2;
+//    if (a6 > 21)
+//    {
+//        break;
+//    }
+//    continue;
+//}
+
+// 7) Escreva um programa para exibir o padrão como triângulo de ângulo reto usando asterisco (*). (usando loop aninhado) --> precisei consultar a sugestão de solução
+//int i, j, linhas;
+//Console.Write("Informe o número de linhas: ");
+//linhas = Convert.ToInt32(Console.ReadLine());
+
+//for (i = 1; i <= linhas; i++)
+//{
+//    for (j = 1; j <= i; j++)
+//        Console.Write("*");
+//        Console.Write("\n");  
+//}
+
