@@ -181,4 +181,94 @@
 //        Console.Write("*");
 //        Console.Write("\n");  
 //}
+// 8) - Escreva um programa para calcular o fatorial de um número inteiro. 
+//int i8, f8 = 1, num8;
+//Console.WriteLine("Insira um número para ver seu fatorial: ");
+//num8 = Convert.ToInt32(Console.ReadLine());
+
+//for (i8 = 1; i8 <= num8; i8++)
+//{
+//    f8 = f8 * i8;
+//}
+
+//Console.WriteLine(f8);
+
+// 9) Escreva um programa para exibir as tabelas de multiplicação do 2 ao 6 usando o loop do-while aninhado
+//int x = 2;
+//do
+//{
+//    int y = 1;
+//    do
+//    {
+//        Console.WriteLine($"{x} x {y} = {x * y}");
+//        y++;
+//    } while (y <= 10);
+//    Console.WriteLine();
+//    x++;
+//} while (x <= 6);
+
+// 10) Crie um programa que recebe na entrada de dados um número inteiro de 0 a 10 que representa a nota de um aluno. Com base na tabela a
+// seguir imprima no console qual o resultado da avaliação do aluno. (Use a instrução switch, break e default em um loop infinito e defina
+// uma condição de saida.)
+//do
+//{
+//    Console.WriteLine("Insira a nota do aluno: (pressione -1 para sair)");
+//    int nota = Convert.ToInt32(Console.ReadLine());
+//    if (nota == -1)
+//    {
+//        break;
+//    }
+//    switch (nota)
+//    {
+//        case 10:
+//            Console.WriteLine("A+");
+//            break;
+//        case 9:
+//            Console.WriteLine("A");
+//            break;
+//        case 8:
+//        case 7:
+//            Console.WriteLine("B");
+//            break;
+//        case 6:
+//            Console.WriteLine("C");
+//            break;
+//        case 5:
+//            Console.WriteLine("E");
+//            break;
+//        case 4:
+//        case 3:
+//        case 2:
+//        case 1:
+//        case 0:
+//            Console.WriteLine("F");
+//            break;
+//        default:
+//            Console.WriteLine("Insira uma nota válida");
+//            break;
+//    }
+//} while(true); 
+
+// 11) - Crie um programa para realizar as operações de adição, subtração, multiplicação e divisão de números inteiros. (considere que na
+// divisão podemos ter números fracionários e que não existe divisão por zero e quando isso ocorrer exibir uma mensagem de alerta).
+//double n1, n2;
+//string operando;
+
+//Console.WriteLine("Informe o primeiro número: ");//n1 = Convert.ToDouble(Console.ReadLine());//Console.WriteLine("Informe o operando (+, -, *, /)");//operando = Console.ReadLine();//Console.WriteLine("Informe o segundo número: ");//n2 = Convert.ToDouble(Console.ReadLine());//if (operando == "+")
+//{
+//    Console.WriteLine($"{n1} + {n2} = {n1 + n2}");
+//}//else if (operando == "-")
+//{
+//    Console.WriteLine($"{n1} - {n2} = {n1 - n2}");
+//}//else if (operando == "/")
+//{
+//    if (n2 == 0)
+//    {
+//        Console.WriteLine("Não existe divisão por zero!!! (8 = infinito)");
+//    }
+//    Console.WriteLine($"{n1} / {n2} = {n1 / n2}");
+//}//else if (operando == "*")
+//{
+//    Console.WriteLine($"{n1} * {n2} = {n1 * n2}");
+//}
 
